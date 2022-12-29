@@ -1,12 +1,48 @@
 # new-mac-setup
 
-This is a setup command for a new mac.
+This document is the process for setting up a new mac computer
 
-It follows this process
-https://danmunoz.com/setting-up-a-new-computer-with-homebrew/
+# Pre-Homebrew
 
-Install homebrew and then create a file named Brewfile in the root and then run
+1. Create zsh profile
+
+```
+touch ~/.zprofile
+```
+
+2. Install homebrew
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+# Run Homebrew Bundle Install
+
+Copy the Brewfile to the user root and then run
 
 ```
 brew bundle
+```
+
+# Post Homebrew Setup
+
+Additional config after the fact
+
+## Raycast
+
+- add window magnification shortcut (full screen, left side, right side)
+
+## System Prefernces
+
+- Mouse natural scrolling
+- More space on display
+- Dock minifications
+
+## Node
+
+Install node using `nvm`
+
+```
+nvm install stable
+nvm use stable
 ```

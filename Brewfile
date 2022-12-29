@@ -15,5 +15,9 @@ cask "slack"
 cask "visual-studio-code"
 
 # Dev
+# Secret Management
 tap "infisical/get-cli"
 brew "infisical/get-cli/infisical"
+
+# Node Version Manager to install Node
+brew "nvm"
