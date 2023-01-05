@@ -5,6 +5,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 
 brew "mas"
+brew "ngrok/ngrok/ngrok"
 
 # General
 cask "arc"
