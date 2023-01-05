@@ -14,6 +14,7 @@ cask "raycast"
 cask "slack"
 cask "visual-studio-code"
 cask "hey"
+cask "insomnia"
 
 # Dev
 # Secret Management
