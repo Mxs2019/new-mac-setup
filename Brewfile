@@ -16,6 +16,7 @@ cask "slack"
 cask "visual-studio-code"
 cask "hey"
 cask "insomnia"
+cask "loom"
 
 # Dev
 # Secret Management
