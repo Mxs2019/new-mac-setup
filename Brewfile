@@ -17,6 +17,7 @@ cask "visual-studio-code"
 cask "hey"
 cask "insomnia"
 cask "loom"
+cask "spotify"
 
 # Dev
 # Secret Management
