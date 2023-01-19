@@ -18,6 +18,7 @@ cask "hey"
 cask "insomnia"
 cask "loom"
 cask "spotify"
+cask "zoom"
 
 # Dev
 # Secret Management
