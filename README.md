@@ -24,25 +24,13 @@ Copy the Brewfile to the user root and then run
 brew bundle
 ```
 
-# Post Homebrew Setup
+# Run Setup Script
+./setup.sh
 
-Additional config after the fact
+# Manual Setup
+
+Addistional setup that has to be manaul
 
 ## Raycast
 
 - add window magnification shortcut (full screen, left side, right side)
-
-## System Prefernces
-
-- Mouse natural scrolling
-- More space on display
-- Dock minifications
-
-## Node
-
-Install node using `nvm`
-
-```
-nvm install stable
-nvm use stable
-```
